@@ -2,11 +2,6 @@
 
                                STRATERGY DESIGN PATTERN
 
-
-
-##Payment Strategy Example
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
                              
 ## Overview
 
@@ -20,7 +15,30 @@ The Strategy Design Pattern is a behavioral design pattern that defines a family
 
 - `CreditCard` and `GooglePay` represent concrete strategies, each implementing the payment method differently.
 
-- `ShoppingCart` is the context that allows you to set and switch between payment strategies dynamically.
+- `ShoppingCart` is the context that allows you to set and switch between payment 
+strategies dynamically.
+
+## Getting Started
+
+1. Clone the project repository to your local machine:
+
+   ```bash
+   git clone 'https://github.com/coding-club-gct/design-patterns'
+   cd group-messaging
+   ```
+
+2. Compile the code using a C++ compiler:
+
+   ```bash
+   g++ main.cpp -o group_messaging
+   ```
+
+3. Run the compiled executable:
+
+   ```bash
+   ./group_messaging
+   ```
+
 
 ## How to Use
 

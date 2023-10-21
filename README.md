@@ -72,7 +72,7 @@ To get started with "DesignPattern," follow the instructions below.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-project.git
+git clone https://github.com/coding-club-gct/design-patterns
 
 # Navigate to the project directory
 cd your-project
