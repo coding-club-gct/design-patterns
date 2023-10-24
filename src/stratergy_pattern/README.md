@@ -67,5 +67,17 @@ int main() {
 
 In this example, we create a shopping cart, set payment strategies (credit card and Google Pay), and make payments using the chosen strategy.
 
+
+## License
+
+This code is provided under MIT license.You are free to use and modify it for your purposes.
+ 
+
+## Acknowledgements
+
+- The code in this example is for educational purposes and was inspired by the Stratergy design pattern.
+
+
+
 Enjoy exploring the Strategy Design Pattern with this simple example!
 

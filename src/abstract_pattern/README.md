@@ -53,3 +53,6 @@ The code also demonstrates proper memory management by deallocating dynamically 
 
 This code is provided under the MIT License. You are free to use and modify it for your purposes.
 
+## Acknowledgements
+
+- The code in this example is for educational purposes and was inspired by the Abstract design pattern.

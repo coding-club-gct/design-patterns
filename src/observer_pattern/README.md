@@ -60,6 +60,9 @@ Contributions to this project are welcome. Feel free to open issues or pull requ
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License.You are free to use and modify it for your purposes.
 
+
+## Acknowledgements
+
+- The code in this example is for educational purposes and was inspired by the Observer design pattern.

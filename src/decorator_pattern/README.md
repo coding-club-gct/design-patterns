@@ -72,5 +72,9 @@ Contributions are welcome! If you'd like to enhance or extend this project, plea
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.You are free to use and modify it for your purposes.
 
+
+## Acknowledgements
+
+- The code in this example is for educational purposes and was inspired by the Decorator design pattern.
