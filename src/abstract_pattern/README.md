@@ -19,6 +19,10 @@ The code is organized as follows:
 ## How to Use
 
 1. Clone this repository to your local machine.
+    
+     ```shell
+   git clone https://github.com/coding-club-gct/design-patterns/tree/main/src/abstract_pattern.git
+   ```
 
 2. Compile the code using a C++ compiler. For example:
 
