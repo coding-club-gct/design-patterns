@@ -23,7 +23,7 @@ strategies dynamically.
 1. Clone the project repository to your local machine:
 
    ```bash
-   git clone 'https://github.com/coding-club-gct/design-patterns'
+   git clone  https://github.com/coding-club-gct/design-patterns/tree/main/src/stratergy_pattern.git
    cd group-messaging
    ```
 

@@ -45,7 +45,7 @@ In the `main` function:
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/restaurant-order-command-pattern.git
+   git clone https://github.com/coding-club-gct/design-patterns/tree/main/src/command_pattern.git
    ```
 
 2. Compile the C++ program:
