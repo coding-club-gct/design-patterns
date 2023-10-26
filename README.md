@@ -1,9 +1,5 @@
-### DESIGN PATTERNS
-                                                    
-                                                    
-
-This project, called "DesignPattern," is a software application that aims to showcase and implement various design patterns in a practical way. Its main purpose is to serve as a learning resource for developers who want to understand and apply design patterns in their own projects.
-
+## DESIGN PATTERNS
+                                                                                    
 
 ## Table of Contents
 
@@ -19,12 +15,14 @@ This project, called "DesignPattern," is a software application that aims to sho
 ## Introduction
 
 Design patterns are recurring solutions to common problems in software design. They help in creating maintainable, scalable, and flexible software. "DesignPatternWizard" exists to provide a hands-on approach to understanding and implementing these patterns. The project uses JavaScript and is designed for developers and software engineering students.
+This project, called "DesignPattern," is a software application that aims to showcase and implement various design patterns in a practical way. Its main purpose is to serve as a learning resource for developers who want to understand and apply design patterns in their own projects.
+
 
 ## Design Patterns
 
 In "DesignPattern," we've implemented various design patterns to demonstrate their use and benefits:
 
-### Sructural Design Patterns:
+## Sructural Design Patterns:
 
 Structural design patterns are concerned with how objects are composed to form larger structures. They focus on the composition of classes or objects to create new structures, often simplifying complex relationships.The project  incorporates structural design patterns such as Composite, Decorator, and Bridge.
 
