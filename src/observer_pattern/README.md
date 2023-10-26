@@ -38,13 +38,13 @@ This project showcases a basic implementation of the Observer Pattern in C++. Th
 2. Compile the code using a C++ compiler:
 
    ```bash
-   g++ main.cpp -o group_messaging
+   g++ main.cpp -o observer_pattern
    ```
 
 3. Run the compiled executable:
 
    ```bash
-   ./group_messaging
+   ./observer_pattern
    ```
 
 ## Usage

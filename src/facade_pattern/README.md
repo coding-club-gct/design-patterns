@@ -28,13 +28,13 @@ This is a C++ code example that illustrates the Facade Pattern. In this example,
 2. Compile the C++ program:
 
    ```shell
-   g++ main.cpp -o hotel_menu_example
+   g++ main.cpp -o facade_pattern
    ```
 
 3. Run the program:
 
    ```shell
-   ./hotel_menu_example
+   ./facade_pattern
    ```
 
 4. You should see output indicating that the client requests menus from the hotel keeper, which provides menus from different restaurants through a simplified interface.

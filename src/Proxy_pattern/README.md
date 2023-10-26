@@ -30,13 +30,13 @@ To compile and run the code:
 2. Compile the C++ program:
 
    ```shell
-   g++ main.cpp -o internet_proxy_example
+   g++ main.cpp -o proxy_pattern
    ```
 
 3. Run the program:
 
    ```shell
-   ./internet_proxy_example
+   ./proxy_pattern
    ```
 
 4. The program will output whether access to websites is allowed or restricted based on the example.

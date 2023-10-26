@@ -27,13 +27,13 @@ The code is organized as follows:
 2. Compile the code using a C++ compiler. For example:
 
    ```shell
-   g++ main.cpp -o food_and_beverage
+   g++ main.cpp -o abstract_pattern
    ```
 
 3. Run the executable:
 
    ```shell
-   ./food_and_beverage
+   ./abstract_pattern
    ```
 
 4. The program will create "Veg" and "Non-Veg" food and beverage orders and display the messages indicating that the items are ready.

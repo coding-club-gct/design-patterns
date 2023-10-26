@@ -51,13 +51,13 @@ In the `main` function:
 2. Compile the C++ program:
 
    ```shell
-   g++ main.cpp -o restaurant_order
+   g++ main.cpp -o command_pattern
    ```
 
 3. Run the program:
 
    ```shell
-   ./restaurant_order
+   ./command_pattern
    ```
 
 4. You should see the output indicating that the pasta and pizza orders have been prepared by the chef.

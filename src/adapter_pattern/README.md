@@ -31,13 +31,13 @@ This is a C++ code example that illustrates the Adapter Pattern. In this example
 2. Compile the C++ program:
 
    ```shell
-   g++ main.cpp -o printer_example
+   g++ main.cpp -o adapter_pattern
    ```
 
 3. Run the program:
 
    ```shell
-   ./printer_example
+   ./adapter_pattern
    ```
 
 4. You should see output indicating the printing with both the legacy `OldPrinter` and the new `ModernPrinter` through the `PrinterAdapter`.

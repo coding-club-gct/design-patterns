@@ -30,13 +30,13 @@ strategies dynamically.
 2. Compile the code using a C++ compiler:
 
    ```bash
-   g++ main.cpp -o group_messaging
+   g++ main.cpp -o stratergy_pattern
    ```
 
 3. Run the compiled executable:
 
    ```bash
-   ./group_messaging
+   ./stratergy_pattern
    ```
 
 
