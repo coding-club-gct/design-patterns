@@ -24,11 +24,10 @@ Design patterns are recurring solutions to common problems in software design. T
 
 In "DesignPattern," we've implemented various design patterns to demonstrate their use and benefits:
 
-### Strategy Pattern
-The Strategy Pattern allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. It helps in selecting the appropriate algorithm at runtime.
+### Sructural Design Patterns:
 
-### Observer Pattern
-The Observer Pattern defines a one-to-many dependency between objects. When one object changes state, all its dependents are notified and updated automatically.
+Structural design patterns are concerned with how objects are composed to form larger structures. They focus on the composition of classes or objects to create new structures, often simplifying complex relationships.The project  incorporates structural design patterns such as Composite, Decorator, and Bridge.
+
 
 ### Decorator Pattern
 The Decorator Pattern attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality.
@@ -42,9 +41,6 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 ### Singleton Pattern
 The Singleton Pattern ensures that a class has only one instance and provides a global point of access to it.
 
-### Command Pattern
-The Command Pattern encapsulates a request as an object, thereby allowing you to parameterize clients with queues, requests, and operations.
-
 ### Adapter Pattern
 The Adapter Pattern allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
 
@@ -57,11 +53,21 @@ The Proxy Pattern provides a surrogate or placeholder for another object to cont
 ### Bridge Pattern
 The Bridge Pattern separates an object’s abstraction from its implementation so that the two can vary independently.
 
-### Structural Patterns
-The project also incorporates other structural design patterns such as Composite, Decorator, and Bridge.
+## Behavioral Design Patterns:
 
-### Behavioral Patterns
-Behavioral design patterns like Template Method, Iterator, State, and Null Object are also demonstrated in the project.
+Behavioral design patterns are concerned with how objects interact and communicate with each other. They define the patterns for objects' interactions and responsibilities.This project incoporates behavioral patterns such as stratergy,observer and command patterns.
+
+ 
+### Strategy Pattern
+The Strategy Pattern allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. It helps in selecting the appropriate algorithm at runtime.
+
+### Observer Pattern
+The Observer Pattern defines a one-to-many dependency between objects. When one object changes state, all its dependents are notified and updated automatically.
+
+### Command Pattern
+The Command Pattern encapsulates a request as an object, thereby allowing you to parameterize clients with queues, requests, and operations.
+
+
 
 ## Getting Started
 
