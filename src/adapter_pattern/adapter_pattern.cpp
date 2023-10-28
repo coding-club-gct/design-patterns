@@ -1,50 +1,51 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 
 using namespace std;
 
-class OldPrinter{
+// The existing OldPrinter class
+class OldPrinter {
 public:
-    void print(){
-        cout<<"Old printer"<<endl;
+    void printOld() {
+        cout << "Old printer" << endl;
     }
 };
 
-class NewPrinter{
+// The existing NewPrinter class
+class NewPrinter {
 public:
-    void print(){
-        cout<<"New printer"<<endl;
+    void printNew() {
+        cout << "New printer" << endl;
     }
 };
 
-class Printer{
+// The Printer class with NewPrinter functionality
+class Printer {
 private:
-    NewPrinter newprinter;
-public:
-   void usePrinter(){
-       newprinter.print();
-   }
+    NewPrinter newPrinter;
 
-    
-    
+public:
+    void usePrinter() {
+        newPrinter.printNew();
+    }
 };
 
+// The Adapter for OldPrinter, making it work with the Printer
+class OldPrinterAdapter {
+private:
+    OldPrinter oldPrinter;
 
-int main()
-{
-    OldPrinter oldprinter;
-    oldprinter.print();
-    
+public:
+    void usePrinter() {
+        oldPrinter.printOld();
+    }
+};
+
+int main() {
+    OldPrinterAdapter oldPrinterAdapter;
+    oldPrinterAdapter.usePrinter(); // This adapter allows OldPrinter to be used through Printer
+
     Printer newPrinter;
-    newPrinter.usePrinter();
-    
+    newPrinter.usePrinter(); // This uses the NewPrinter directly
 
     return 0;
 }
