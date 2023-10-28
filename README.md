@@ -22,13 +22,10 @@ This project, called "DesignPattern," is a software application that aims to sho
 
 In "DesignPattern," we've implemented various design patterns to demonstrate their use and benefits:
 
-## Sructural Design Patterns:
 
-Structural design patterns are concerned with how objects are composed to form larger structures. They focus on the composition of classes or objects to create new structures, often simplifying complex relationships.The project  incorporates structural design patterns such as Composite, Decorator, and Bridge.
+## Creational Design Patterns:
 
-
-### Decorator Pattern
-The Decorator Pattern attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality.
+Creational design patterns focus on object creation mechanisms, providing flexibility in how objects are instantiated. They abstract the instantiation process, making the system independent of how its objects are created, composed, and represented.
 
 ### Factory Method Pattern
 The Factory Method Pattern defines an interface for creating an object, but it allows subclasses to alter the type of objects that will be created.
@@ -38,6 +35,15 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 
 ### Singleton Pattern
 The Singleton Pattern ensures that a class has only one instance and provides a global point of access to it.
+
+
+## Sructural Design Patterns:
+
+Structural design patterns are concerned with how objects are composed to form larger structures. They focus on the composition of classes or objects to create new structures, often simplifying complex relationships.The project  incorporates structural design patterns such as Composite, Decorator, and Bridge.
+
+
+### Decorator Pattern
+The Decorator Pattern attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality.
 
 ### Adapter Pattern
 The Adapter Pattern allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
